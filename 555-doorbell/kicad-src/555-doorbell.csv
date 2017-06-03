@@ -1,0 +1,9 @@
+"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
+1;"SP1";"BUZZER";1;"SPEAKER";;;
+2;"C1,C3,C4";"C_Disc_D7.5mm_W2.5mm_P5.00mm";3;"10n";;;
+3;"C2,C5";"CP_Radial_D5.0mm_P2.50mm";2;"10u";;;
+4;"D1,D2";"D_A-405_P5.08mm_Vertical_AnodeUp";2;"1N4148";;;
+5;"R1,R2,R3,R4";"R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal";4;"47k";;;
+6;"SW1";"SW_PUSH_6mm";1;"SW_PUSH_SMALL_H";;;
+7;"U1";"DIP-8_W7.62mm";1;"LM555N";;;
+8;"P1";"PINHEAD1-2";1;"CONN_01X02";;;
