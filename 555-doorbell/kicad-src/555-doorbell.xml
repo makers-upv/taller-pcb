@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>D:/Users/jaime/Documents/GitHub/555-doorbell/kicad/555-doorbell.sch</source>
+    <date>29/05/2017 15:19:28</date>
+    <tool>Eeschema 4.0.4-stable</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>555 DOOR BELL</title>
+        <company>Jaime Laborda</company>
+        <rev>v1</rev>
+        <date>2017-05-27</date>
+        <source>555-doorbell.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>LM555N</value>
+      <footprint>Housings_DIP:DIP-8_W7.62mm</footprint>
+      <libsource lib="lm555n_visible" part="LM555N_visible"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5929DE2D</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>10n</value>
+      <footprint>Capacitors_ThroughHole:C_Disc_D7.5mm_W2.5mm_P5.00mm</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5929DFBF</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_PUSH_SMALL_H</value>
+      <footprint>Buttons_Switches_ThroughHole:SW_PUSH_6mm</footprint>
+      <libsource lib="device" part="SW_PUSH_SMALL_H"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5929E012</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>1N4148</value>
+      <footprint>Diodes_ThroughHole:D_A-405_P5.08mm_Vertical_AnodeUp</footprint>
+      <libsource lib="device" part="D_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5929E124</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>1N4148</value>
+      <footprint>Diodes_ThroughHole:D_A-405_P5.08mm_Vertical_AnodeUp</footprint>
+      <libsource lib="device" part="D_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5929E2FB</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>10u</value>
+      <footprint>Capacitors_ThroughHole:CP_Radial_D5.0mm_P2.50mm</footprint>
+      <libsource lib="device" part="CP_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5929E3FE</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>47k</value>
+      <footprint>Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5929E48A</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>47k</value>
+      <footprint>Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5929E668</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>47k</value>
+      <footprint>Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5929E6A7</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>47k</value>
+      <footprint>Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5929E6D2</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>10n</value>
+      <footprint>Capacitors_ThroughHole:C_Disc_D7.5mm_W2.5mm_P5.00mm</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5929E7B9</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>10u</value>
+      <footprint>Capacitors_ThroughHole:CP_Radial_D5.0mm_P2.50mm</footprint>
+      <libsource lib="device" part="CP_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5929EF21</tstamp>
+    </comp>
+    <comp ref="SP1">
+      <value>SPEAKER</value>
+      <footprint>Connect:PINHEAD1-2</footprint>
+      <libsource lib="device" part="SPEAKER"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5929EF7A</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>10n</value>
+      <footprint>Capacitors_ThroughHole:C_Disc_D7.5mm_W2.5mm_P5.00mm</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>592A7EA0</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>CONN_01X02</value>
+      <footprint>Connect:PINHEAD1-2</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>592AAFF4</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="conn" part="CONN_01X02">
+      <description>Connector, single row, 01x02</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X02</fp>
+        <fp>Pin_Header_Angled_1X02</fp>
+        <fp>Socket_Strip_Straight_1X02</fp>
+        <fp>Socket_Strip_Angled_1X02</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="CP_Small">
+      <description>Polarised capacitor</description>
+      <footprints>
+        <fp>CP*</fp>
+        <fp>C_Axial*</fp>
+        <fp>C_Radial*</fp>
+        <fp>TantalC*</fp>
+        <fp>C*elec</fp>
+        <fp>c_elec*</fp>
+        <fp>SMD*_Pol</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="C_Small">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="D_Small">
+      <description>Diode</description>
+      <footprints>
+        <fp>Diode_*</fp>
+        <fp>D-Pak_TO252AA</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>*_Diode_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="lm555n_visible" part="LM555N_visible">
+      <description>555-series timer IC</description>
+      <docs>ns/lm555.pdf</docs>
+      <footprints>
+        <fp>DIP*</fp>
+        <fp>TSSOP*</fp>
+        <fp>SOIC*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM555N_visible</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="TR" type="input"/>
+        <pin num="3" name="Q" type="output"/>
+        <pin num="4" name="R" type="input"/>
+        <pin num="5" name="CV" type="input"/>
+        <pin num="6" name="THR" type="input"/>
+        <pin num="7" name="DIS" type="input"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R_Small">
+      <description>Resistor</description>
+      <footprints>
+        <fp>Resistor_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="SPEAKER">
+      <description>Audio speaker, 2 pins, generic symbol</description>
+      <fields>
+        <field name="Reference">SP</field>
+        <field name="Value">SPEAKER</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="SW_PUSH_SMALL_H">
+      <description>Button</description>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_PUSH_SMALL_H</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>C:\Program Files\KiCad\share\kicad\library\device.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>C:\Program Files\KiCad\share\kicad\library\conn.lib</uri>
+    </library>
+    <library logical="lm555n_visible">
+      <uri>D:\Users\jaime\Documents\GitHub\555-doorbell\kicad\lm555n_visible.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(C3-Pad1)">
+      <node ref="U1" pin="6"/>
+      <node ref="U1" pin="2"/>
+      <node ref="C3" pin="1"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="2" name="Net-(C2-Pad1)">
+      <node ref="U1" pin="4"/>
+      <node ref="D1" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="3" name="Net-(R3-Pad2)">
+      <node ref="R4" pin="1"/>
+      <node ref="R3" pin="2"/>
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="4" name="Net-(D2-Pad1)">
+      <node ref="D2" pin="1"/>
+      <node ref="R3" pin="1"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="5" name="GND">
+      <node ref="C2" pin="2"/>
+      <node ref="SP1" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="R1" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="P1" pin="1"/>
+      <node ref="C3" pin="2"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="6" name="VCC">
+      <node ref="R2" pin="1"/>
+      <node ref="U1" pin="8"/>
+      <node ref="C1" pin="1"/>
+      <node ref="SW1" pin="1"/>
+      <node ref="P1" pin="2"/>
+    </net>
+    <net code="7" name="Net-(C4-Pad1)">
+      <node ref="U1" pin="5"/>
+      <node ref="C4" pin="1"/>
+    </net>
+    <net code="8" name="Net-(C5-Pad1)">
+      <node ref="U1" pin="3"/>
+      <node ref="C5" pin="1"/>
+    </net>
+    <net code="9" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2"/>
+      <node ref="D2" pin="2"/>
+      <node ref="SW1" pin="2"/>
+    </net>
+    <net code="10" name="Net-(C5-Pad2)">
+      <node ref="C5" pin="2"/>
+      <node ref="SP1" pin="1"/>
+    </net>
+  </nets>
+</export>
